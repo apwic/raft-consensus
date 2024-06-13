@@ -1,13 +1,7 @@
-# Raft
+# Raft Consensus
+> Based on https://raft.github.io/raft.pdf 
 
 Raft implementation using python
-
-| Nim      | Nama                           |
-| -------- | ------------------------------ |
-| 13520016 | Gagas Praharsa Bahar           |
-| 13520029 | Muhammad Garebaldhie ER Rahman |
-| 13520036 | I Gede Arya R. P               |
-| 13520044 | Adiyansa Prasetya Wicaksana    |
 
 ## How to run
 
@@ -19,4 +13,3 @@ Raft implementation using python
 - `make server-to PORT={port} SERVER_PORT={host}`
 - Run client:
 - `make client-local SERVER_PORT={port}`
-
